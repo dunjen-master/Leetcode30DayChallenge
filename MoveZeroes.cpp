@@ -1,8 +1,9 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        int last1=-1;
-        int last2=-1;
+        int last1;
+        int last2;
+        last1 = last2 = -1;
         for(int i=0;i<nums.size();i++){
             if(nums[i]!=0){
                 if(last1==-1)continue;
