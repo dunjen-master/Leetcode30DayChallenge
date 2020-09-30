@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isHappy(int n) {
         
-        for(int i=0;i<=1000000;i++){
+        for(int i=0;i<=30;i++){
             
             long long int ans=0;
             int x=n;
